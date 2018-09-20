@@ -1,11 +1,13 @@
 [tool.poetry]
 name = "elnath"
 version = "0.1.0"
-description = ""
+description = "Homepage y sistema de administración para CNTX"
 authors = ["Ricardo Cisterna <r.cisternasantos@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "*"
+python = "^3.7"
+django = "^2.1"
 
 [tool.poetry.dev-dependencies]
-pytest = "^3.0"
+pylint = "^2.1"
+flake8 = "^3.5"
